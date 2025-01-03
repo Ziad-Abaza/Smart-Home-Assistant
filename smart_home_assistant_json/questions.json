@@ -1,0 +1,45 @@
+{
+    "messages": {
+        "welcome": "welcome to the smart home",
+        "pass_check": "enter the password please",
+        "pass_denied": "access denied, please try again."
+    },
+    "questions": [
+        {
+            "questions": ["what is your name", "who are you", "tell me your name"],
+            "action": "report_name"
+        },
+        {
+            "questions": ["what is today", "today's date", "today's day"],
+            "action": "report_today"
+        },
+        {
+            "questions": ["open the door", "unlock the door", "please open the door", "open door"],
+            "action": "check_password"
+        },
+        {
+            "questions": ["play music", "start music", "music on"],
+            "action": "play_music"
+        },
+        {
+            "questions": ["stop music", "turn off music", "music off"],
+            "action": "stop_music"
+        },
+        {
+            "questions": ["set alarm", "set an alarm", "alarm on"],
+            "action": "set_alarm"
+        },
+        {
+            "questions": ["cancel alarm", "turn off alarm", "alarm off"],
+            "action": "cancel_alarm"
+        },
+        {
+            "questions": ["what is the time", "current time", "time please"],
+            "action": "report_time"
+        },
+        {
+            "questions": ["what is the date", "current date", "date please"],
+            "action": "report_date"
+        }
+    ]
+}

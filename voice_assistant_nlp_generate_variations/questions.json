@@ -1,0 +1,1023 @@
+{
+    "messages": {
+        "welcome": "welcome to the smart home",
+        "pass_check": "enter the password please",
+        "pass_denied": "access denied, please try again."
+    },
+    
+    "questions": [
+        {
+            "question": [
+                "What's your name?",
+                "Can you tell me your name?",
+                "What should I call you?",
+                "Who am I speaking to?"
+            ],
+            "type": "Introduction",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I don't have a name, but you can call me your virtual assistant."
+            ]
+        },
+        {
+            "question": [
+                "How are you today?",
+                "How's your day going?",
+                "What's up with you?",
+                "How do you feel today?"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I'm just a program, but thanks for asking! How can I assist you today?"
+            ]
+        },
+        {
+            "question": [
+                "What can you do?",
+                "What are your capabilities?",
+                "What are you able to help with?",
+                "Tell me about your functions."
+            ],
+            "type": "Introduction",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "I can help you with a variety of tasks such as answering questions, providing information, setting reminders, and more. Just let me know what you need!"
+            ]
+        },
+        {
+            "question": [
+                "Tell me a joke.",
+                "Can you share a joke?",
+                "Do you know any jokes?",
+                "Make me laugh with a joke!"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "Why don't scientists trust atoms? Because they make up everything!"
+            ]
+        },
+        {
+            "question": [
+                "What is your favorite color?",
+                "Do you have a favorite color?",
+                "What's the color you like most?",
+                "Tell me your favorite color."
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I don't have preferences, but I can help you find information about any color you like!"
+            ]
+        },
+        {
+            "question": [
+                "Can you sing a song?",
+                "Do you know how to sing?",
+                "Show me a song!",
+                "Can you perform a song?"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I can't sing, but I can provide you with lyrics to your favorite songs!"
+            ]
+        },
+        {
+            "question": [
+                "What's the weather like?",
+                "Can you tell me the weather?",
+                "How's the weather today?",
+                "What is the current weather?"
+            ],
+            "type": "General Knowledge",
+            "expected_answer_type": "Short Text",
+            "context": "Location-Based",
+            "answer": [
+                "Please check your local weather app or website for the most accurate information."
+            ]
+        },
+        {
+            "question": [
+                "How do you work?",
+                "Can you explain how you function?",
+                "What’s your process?",
+                "Tell me about how you operate."
+            ],
+            "type": "Introduction",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "I use advanced algorithms and data processing to understand and respond to your questions. My responses are based on a mix of pre-programmed information and real-time data."
+            ]
+        },
+        {
+            "question": [
+                "What’s your favorite book?",
+                "Do you have a book you like?",
+                "Tell me your favorite book.",
+                "What's a book you enjoy?"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I don't read books, but I can help you find information about any book you like!"
+            ]
+        },
+        {
+            "question": [
+                "Can you help me with my homework?",
+                "I need help with my homework, can you assist?",
+                "Can you support me with my homework?",
+                "How can you help me with my studies?"
+            ],
+            "type": "Instructional",
+            "expected_answer_type": "Explanatory",
+            "context": "Education",
+            "answer": [
+                "Sure! What subject are you working on? I can provide information, explain concepts, or help with research."
+            ]
+        },
+        {
+            "question": [
+                "What is your favorite food?",
+                "Do you have a preferred food?",
+                "Tell me your favorite dish.",
+                "What's a food you like?"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I don't eat, but I can help you find recipes or information about different foods."
+            ]
+        },
+        {
+            "question": [
+                "How old are you?",
+                "What's your age?",
+                "Can you tell me your age?",
+                "How many years old are you?"
+            ],
+            "type": "Introduction",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I don't have an age like humans do. I’m constantly updated and improved."
+            ]
+        },
+        {
+            "question": [
+                "Do you have a family?",
+                "Can you tell me about your family?",
+                "Do you have relatives?",
+                "What's your family like?"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "I don’t have a family, but I'm here to help you as much as I can!"
+            ]
+        },
+        {
+            "question": [
+                "Can you tell me a fun fact?",
+                "Share a fun fact with me.",
+                "Do you know any interesting facts?",
+                "Tell me something fun!"
+            ],
+            "type": "Casual Conversation",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!"
+            ]
+        },
+        {
+            "question": [
+                "How do I use this app?",
+                "Can you guide me on using this app?",
+                "What are the steps to use this app?",
+                "Show me how to navigate this app."
+            ],
+            "type": "Instructional",
+            "expected_answer_type": "Step-by-Step",
+            "context": "App Usage",
+            "answer": [
+                "Open the app and log in.",
+                "Navigate through the menu to find the features you need.",
+                "Use the help section if you need more detailed instructions."
+            ]
+        },
+        {
+            "question": [
+                "What's the best way to stay healthy?",
+                "How can I stay healthy?",
+                "Give me tips on staying healthy.",
+                "What are some good health practices?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "Maintain a balanced diet, exercise regularly, get enough sleep, and manage stress effectively."
+            ]
+        },
+        {
+            "question": [
+                "What is the capital of France?",
+                "Can you tell me the capital city of France?",
+                "What city is the capital of France?",
+                "Which city is France's capital?"
+            ],
+            "type": "General Knowledge",
+            "expected_answer_type": "Short Text",
+            "context": null,
+            "answer": [
+                "Paris"
+            ]
+        },
+        {
+            "question": [
+                "How can I set up my email on my phone?",
+                "Guide me on setting up my email on my phone.",
+                "What steps should I follow to set up email on my phone?",
+                "How do I configure my email on my smartphone?"
+            ],
+            "type": "Instructional",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Technology, Smartphones",
+            "answer": [
+                "Go to your phone's settings.",
+                "Find the 'Accounts' section.",
+                "Add a new email account."
+            ]
+        },
+        {
+            "question": [
+                "What is the weather like today?",
+                "How's the weather today?",
+                "Tell me the current weather.",
+                "Can you give me today's weather?"
+            ],
+            "type": "General Knowledge",
+            "expected_answer_type": "Short Text",
+            "context": "Location-Based",
+            "answer": [
+                "Check weather API for current data."
+            ]
+        },
+        {
+            "question": [
+                "What are the symptoms of the common cold?",
+                "Can you list the symptoms of a cold?",
+                "Tell me what a cold feels like.",
+                "What should I look for if I have a cold?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "List",
+            "context": null,
+            "answer": [
+                "Sneezing",
+                "Coughing",
+                "Runny nose",
+                "Sore throat"
+            ]
+        },
+        {
+            "question": [
+                "What are the benefits of regular exercise?",
+                "How does regular exercise help?",
+                "Can you explain the advantages of exercising regularly?",
+                "Why is regular exercise important?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "Improves cardiovascular health.",
+                "Boosts mood and mental health.",
+                "Increases strength and endurance."
+            ]
+        },
+        {
+            "question": [
+                "How do I reset my password?",
+                "What steps do I take to reset my password?",
+                "Can you guide me on resetting my password?",
+                "How can I change my password?"
+            ],
+            "type": "Instructional",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Technology",
+            "answer": [
+                "Go to the login page.",
+                "Click on 'Forgot Password'.",
+                "Follow the instructions to reset your password."
+            ]
+        },
+        {
+            "question": [
+                "Can you recommend some good programming books?",
+                "What are some great books for learning programming?",
+                "Suggest some programming books for me.",
+                "Tell me about useful programming books."
+            ],
+            "type": "Recommendations",
+            "expected_answer_type": "List",
+            "context": "Programming",
+            "answer": [
+                "Clean Code by Robert C. Martin",
+                "You Don't Know JS by Kyle Simpson",
+                "The Pragmatic Programmer by Andrew Hunt and David Thomas"
+            ]
+        },
+        {
+            "question": [
+                "What are the best practices for securing a website?",
+                "How can I secure my website?",
+                "Give me tips for website security.",
+                "What should I do to protect my website?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Web Security",
+            "answer": [
+                "Use HTTPS.",
+                "Regularly update software and plugins.",
+                "Implement strong password policies."
+            ]
+        },
+        {
+            "question": [
+                "What are the top tourist attractions in New York?",
+                "Can you list some must-see places in New York?",
+                "What should I visit in New York?",
+                "Tell me about the best spots to see in New York."
+            ],
+            "type": "Travel",
+            "expected_answer_type": "List",
+            "context": "Tourism",
+            "answer": [
+                "Statue of Liberty",
+                "Central Park",
+                "Times Square",
+                "Empire State Building"
+            ]
+        },
+        {
+            "question": [
+                "How can I improve my time management skills?",
+                "What are some tips for better time management?",
+                "Can you give me advice on managing my time?",
+                "How do I enhance my time management?"
+            ],
+            "type": "Self-Improvement",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "Prioritize your tasks.",
+                "Use a time management tool like a calendar or to-do list.",
+                "Set specific goals and deadlines."
+            ]
+        },
+        {
+            "question": [
+                "What is the fastest way to learn a new language?",
+                "How can I quickly pick up a new language?",
+                "What are effective methods for learning a new language?",
+                "Tell me the quickest way to learn a new language."
+            ],
+            "type": "Education",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "Practice speaking with native speakers.",
+                "Use language learning apps like Duolingo or Babbel.",
+                "Immerse yourself in the culture and media of the language."
+            ]
+        },
+        {
+            "question": [
+                "What are the most popular programming languages in 2024?",
+                "Can you list the top programming languages for this year?",
+                "What programming languages are trending in 2024?",
+                "Tell me about the popular coding languages in 2024."
+            ],
+            "type": "Technology",
+            "expected_answer_type": "List",
+            "context": "Programming",
+            "answer": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "C++",
+                "Go"
+            ]
+        },
+        {
+            "question": [
+                "What are some healthy snack options?",
+                "Can you suggest healthy snacks?",
+                "What are good snacks for a healthy diet?",
+                "Tell me about nutritious snacks."
+            ],
+            "type": "Health",
+            "expected_answer_type": "List",
+            "context": null,
+            "answer": [
+                "Almonds",
+                "Greek yogurt",
+                "Fruit",
+                "Vegetable sticks with hummus"
+            ]
+        },
+        {
+            "question": [
+                "How do I register a domain name?",
+                "What are the steps to register a domain?",
+                "Can you guide me through domain registration?",
+                "How can I get a domain name?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Web Development",
+            "answer": [
+                "Go to a domain registration site.",
+                "Search for your desired domain.",
+                "Purchase and register it."
+            ]
+        },
+        {
+            "question": [
+                "What is the difference between HTTP and HTTPS?",
+                "Can you explain HTTP vs HTTPS?",
+                "How do HTTP and HTTPS differ?",
+                "Tell me about HTTP and HTTPS differences."
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Web Security",
+            "answer": [
+                "HTTP is unencrypted, while HTTPS is encrypted with SSL.",
+                "HTTPS is more secure for transferring sensitive data."
+            ]
+        },
+        {
+            "question": [
+                "What is the recipe for chocolate chip cookies?",
+                "Can you give me a chocolate chip cookie recipe?",
+                "How do I make chocolate chip cookies?",
+                "Tell me how to bake chocolate chip cookies."
+            ],
+            "type": "Food",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Cooking",
+            "answer": [
+                "Preheat oven to 350°F.",
+                "Mix butter, sugar, and eggs.",
+                "Add flour, baking soda, and chocolate chips.",
+                "Bake for 10-12 minutes."
+            ]
+        },
+        {
+            "question": [
+                "What are the top skills needed for a software developer?",
+                "Can you list essential skills for software developers?",
+                "What skills are crucial for a career in software development?",
+                "Tell me about the key skills for software developers."
+            ],
+            "type": "Career",
+            "expected_answer_type": "List",
+            "context": "Programming",
+            "answer": [
+                "Problem-solving",
+                "Programming languages",
+                "Version control (e.g., Git)",
+                "Teamwork and communication"
+            ]
+        },
+        {
+            "question": [
+                "What are the causes of climate change?",
+                "Can you explain the reasons for climate change?",
+                "What factors contribute to climate change?",
+                "Tell me about the causes of climate change."
+            ],
+            "type": "Science",
+            "expected_answer_type": "Explanatory",
+            "context": "Environment",
+            "answer": [
+                "Burning fossil fuels",
+                "Deforestation",
+                "Industrial activities releasing greenhouse gases"
+            ]
+        },
+        {
+            "question": [
+                "How do I clean my smartphone screen?",
+                "What is the best way to clean my phone screen?",
+                "Can you guide me on cleaning my smartphone screen?",
+                "Tell me how to properly clean my phone screen."
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Smartphones",
+            "answer": [
+                "Turn off your phone.",
+                "Use a microfiber cloth to wipe the screen.",
+                "If needed, dampen the cloth slightly with water."
+            ]
+        },
+        {
+            "question": [
+                "What is quantum computing?",
+                "Can you explain quantum computing?",
+                "Tell me about quantum computing.",
+                "How does quantum computing work?"
+            ],
+            "type": "Science",
+            "expected_answer_type": "Explanatory",
+            "context": "Technology",
+            "answer": [
+                "Quantum computing uses quantum bits (qubits) instead of classical bits.",
+                "It can solve certain problems much faster than classical computers."
+            ]
+        },
+        {
+            "question": [
+                "How can I prevent data loss?",
+                "What are the best practices to avoid data loss?",
+                "Can you give me tips to protect my data?",
+                "How do I safeguard against data loss?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Data Management",
+            "answer": [
+                "Regularly back up your data.",
+                "Use reliable antivirus software.",
+                "Use encryption to protect sensitive data."
+            ]
+        },
+        {
+            "question": [
+                "What are the effects of pollution on health?",
+                "Can you explain how pollution affects health?",
+                "Tell me about the health impacts of pollution.",
+                "What are the health consequences of pollution?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "Explanatory",
+            "context": "Environment",
+            "answer": [
+                "Respiratory problems like asthma.",
+                "Increased risk of heart disease.",
+                "Negative effects on mental health."
+            ]
+        },
+        {
+            "question": [
+                "What are the steps to install Python on my computer?",
+                "Can you guide me through installing Python?",
+                "How do I set up Python on my computer?",
+                "Tell me how to install Python."
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Programming",
+            "answer": [
+                "Go to python.org.",
+                "Download the appropriate installer for your OS.",
+                "Run the installer and follow the setup instructions."
+            ]
+        },
+        {
+            "question": [
+                "What are the symptoms of diabetes?",
+                "Can you list the signs of diabetes?",
+                "Tell me about the symptoms of diabetes.",
+                "What should I look for if I have diabetes?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "List",
+            "context": null,
+            "answer": [
+                "Increased thirst",
+                "Frequent urination",
+                "Fatigue",
+                "Blurred vision"
+            ]
+        },
+        {
+            "question": [
+                "How do I secure my Wi-Fi network?",
+                "What are the best practices for securing a Wi-Fi network?",
+                "Can you give me tips for Wi-Fi network security?",
+                "Tell me how to protect my Wi-Fi network."
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Network Security",
+            "answer": [
+                "Change the default router password.",
+                "Enable WPA3 encryption.",
+                "Disable WPS and UPnP."
+            ]
+        },
+        {
+            "question": [
+                "What are the most common cyber attacks?",
+                "Can you list common types of cyber attacks?",
+                "Tell me about prevalent cyber threats.",
+                "What are typical cyber attacks?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "List",
+            "context": "Cybersecurity",
+            "answer": [
+                "Phishing attacks",
+                "Denial of Service (DoS)",
+                "Ransomware",
+                "Man-in-the-middle attacks"
+            ]
+        },
+        {
+            "question": [
+                "What are the advantages of electric cars?",
+                "What benefits do electric cars offer?",
+                "Why should I consider driving an electric car?",
+                "What are the perks of owning an electric vehicle?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Automotive",
+            "answer": [
+                "Lower emissions compared to gasoline cars.",
+                "Lower maintenance costs.",
+                "Improved efficiency and performance."
+            ]
+        },
+        {
+            "question": [
+                "How do I create a strong password?",
+                "What steps should I take to make a secure password?",
+                "How can I ensure my password is strong?",
+                "What are the best practices for creating a password?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Cybersecurity",
+            "answer": [
+                "Use at least 12 characters, including letters, numbers, and symbols.",
+                "Avoid using personal information.",
+                "Use a password manager to generate and store strong passwords."
+            ]
+        },
+        {
+            "question": [
+                "What are the benefits of meditation?",
+                "How does meditation help improve well-being?",
+                "What positive effects does meditation have?",
+                "Why should I practice meditation?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "Reduces stress and anxiety.",
+                "Improves focus and attention.",
+                "Enhances emotional well-being."
+            ]
+        },
+        {
+            "question": [
+                "How do I update my computer's operating system?",
+                "What steps are involved in updating my OS?",
+                "How can I ensure my computer's operating system is current?",
+                "What is the process for updating my computer's software?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Operating Systems",
+            "answer": [
+                "Open the settings or system preferences.",
+                "Find the 'Software Update' section.",
+                "Click on 'Check for Updates' and follow the instructions."
+            ]
+        },
+        {
+            "question": [
+                "What are the different types of renewable energy?",
+                "Can you list various forms of renewable energy?",
+                "What kinds of renewable energy sources exist?",
+                "What are some examples of renewable energy?"
+            ],
+            "type": "Science",
+            "expected_answer_type": "List",
+            "context": "Environment",
+            "answer": [
+                "Solar energy",
+                "Wind energy",
+                "Hydropower",
+                "Geothermal energy"
+            ]
+        },
+        {
+            "question": [
+                "How can I protect my online privacy?",
+                "What steps should I take to ensure my online privacy?",
+                "How do I keep my personal information safe online?",
+                "What are some tips for maintaining online privacy?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Online Privacy",
+            "answer": [
+                "Use a VPN.",
+                "Avoid sharing personal information on public platforms.",
+                "Enable two-factor authentication for online accounts."
+            ]
+        },
+        {
+            "question": [
+                "What are the effects of global warming on the environment?",
+                "How does global warming impact the environment?",
+                "What environmental changes are caused by global warming?",
+                "What are the consequences of global warming for the planet?"
+            ],
+            "type": "Science",
+            "expected_answer_type": "Explanatory",
+            "context": "Climate Change",
+            "answer": [
+                "Rising sea levels.",
+                "More frequent extreme weather events.",
+                "Loss of biodiversity."
+            ]
+        },
+        {
+            "question": [
+                "How do I organize my workspace for better productivity?",
+                "What tips do you have for organizing my workspace?",
+                "How can I set up my workspace to enhance productivity?",
+                "What are effective strategies for workspace organization?"
+            ],
+            "type": "Self-Improvement",
+            "expected_answer_type": "Explanatory",
+            "context": null,
+            "answer": [
+                "Keep your desk clean and free of clutter.",
+                "Use ergonomic furniture.",
+                "Set up a designated area for focused work."
+            ]
+        },
+        {
+            "question": [
+                "What are the most common mental health disorders?",
+                "Can you list prevalent mental health issues?",
+                "What are the typical mental health disorders people experience?",
+                "What mental health conditions are most frequently diagnosed?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "List",
+            "context": "Mental Health",
+            "answer": [
+                "Depression",
+                "Anxiety",
+                "Bipolar disorder",
+                "Schizophrenia"
+            ]
+        },
+        {
+            "question": [
+                "What are the top programming languages for web development?",
+                "Which programming languages are most used for web development?",
+                "What languages should I learn for web development?",
+                "Can you name popular programming languages for web development?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "List",
+            "context": "Web Development",
+            "answer": [
+                "JavaScript",
+                "Python",
+                "Ruby",
+                "PHP"
+            ]
+        },
+        {
+            "question": [
+                "How do I create a budget for personal finances?",
+                "What steps do I need to take to make a budget?",
+                "How can I effectively budget my personal finances?",
+                "What is the process for establishing a personal budget?"
+            ],
+            "type": "Finance",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Personal Finance",
+            "answer": [
+                "Track your monthly income.",
+                "List all your fixed and variable expenses.",
+                "Set financial goals and allocate funds accordingly."
+            ]
+        },
+        {
+            "question": [
+                "What are the best ways to reduce energy consumption at home?",
+                "How can I save energy in my household?",
+                "What strategies can I use to lower energy usage at home?",
+                "What are effective methods for conserving energy in a home?"
+            ],
+            "type": "Science",
+            "expected_answer_type": "Explanatory",
+            "context": "Environment",
+            "answer": [
+                "Use energy-efficient appliances.",
+                "Install LED lighting.",
+                "Unplug devices when not in use."
+            ]
+        },
+        {
+            "question": [
+                "How do I cook pasta perfectly?",
+                "What is the best method for cooking pasta?",
+                "How can I ensure my pasta is cooked well?",
+                "What are the steps to make perfect pasta?"
+            ],
+            "type": "Food",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Cooking",
+            "answer": [
+                "Boil water with a pinch of salt.",
+                "Add pasta and cook for the recommended time.",
+                "Drain and serve with your preferred sauce."
+            ]
+        },
+        {
+            "question": [
+                "What are the advantages of cloud computing?",
+                "How does cloud computing benefit users?",
+                "What are the perks of using cloud computing?",
+                "Why should I consider cloud computing?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Explanatory",
+            "context": "Cloud Computing",
+            "answer": [
+                "Scalability and flexibility.",
+                "Cost savings on infrastructure.",
+                "Enhanced collaboration and remote access."
+            ]
+        },
+        {
+            "question": [
+                "How do I troubleshoot slow internet speed?",
+                "What steps should I follow to fix slow internet?",
+                "How can I improve my internet speed?",
+                "What are the best ways to address slow internet issues?"
+            ],
+            "type": "Technology",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Networking",
+            "answer": [
+                "Restart your router.",
+                "Check for network congestion.",
+                "Update your router firmware."
+            ]
+        },
+        {
+            "question": [
+                "What are the stages of sleep?",
+                "Can you describe the different sleep stages?",
+                "What are the phases of sleep?",
+                "How many stages of sleep are there and what are they?"
+            ],
+            "type": "Health",
+            "expected_answer_type": "Explanatory",
+            "context": "Sleep",
+            "answer": [
+                "Stage 1: Light sleep.",
+                "Stage 2: Deeper sleep.",
+                "Stage 3: Deep sleep.",
+                "Stage 4: REM sleep."
+            ]
+        },
+        {
+            "question": [
+                "How do I start learning data science?",
+                "What steps should I take to begin studying data science?",
+                "How can I effectively learn data science?",
+                "What is the best approach to learning data science?"
+            ],
+            "type": "Education",
+            "expected_answer_type": "Step-by-Step",
+            "context": "Data Science",
+            "answer": [
+                "Learn Python or R for data analysis.",
+                "Study statistics and probability.",
+                "Practice using libraries like pandas and NumPy."
+            ]
+        }
+    ],
+    "commands": [
+        {
+            "questions": [
+                "what is today",
+                "today's date",
+                "today's day",
+                "can you tell me today's date",
+                "what day is it today",
+                "give me today's date"
+            ],
+            "action": "report_today"
+        },
+        {
+            "questions": [
+                "open the door",
+                "unlock the door",
+                "please open the door",
+                "open door",
+                "can you unlock the door",
+                "would you open the door"
+            ],
+            "action": "check_password"
+        },
+        {
+            "questions": [
+                "play music",
+                "start music",
+                "music on",
+                "could you play some music",
+                "turn on the music",
+                "let's have some music"
+            ],
+            "action": "play_music"
+        },
+        {
+            "questions": [
+                "stop music",
+                "turn off music",
+                "music off",
+                "please stop the music",
+                "can you turn the music off",
+                "mute the music"
+            ],
+            "action": "stop_music"
+        },
+        {
+            "questions": [
+                "set alarm",
+                "set an alarm",
+                "alarm on",
+                "please set the alarm",
+                "can you set an alarm",
+                "activate the alarm"
+            ],
+            "action": "set_alarm"
+        },
+        {
+            "questions": [
+                "cancel alarm",
+                "turn off alarm",
+                "alarm off",
+                "disable the alarm",
+                "please cancel the alarm",
+                "deactivate the alarm"
+            ],
+            "action": "cancel_alarm"
+        },
+        {
+            "questions": [
+                "what is the time",
+                "current time",
+                "time please",
+                "tell me the time",
+                "what time is it",
+                "give me the time"
+            ],
+            "action": "report_time"
+        },
+        {
+            "questions": [
+                "what is the date",
+                "current date",
+                "date please",
+                "can you tell me the date",
+                "what is today's date",
+                "give me the current date"
+            ],
+            "action": "report_date"
+        },
+        {"action": "set_timer", "questions": ["set a timer", "start timer", "timer for"]},
+        {"action": "set_alert", "questions": ["set an alert", "start alert", "alert for"]}
+    ]
+}
